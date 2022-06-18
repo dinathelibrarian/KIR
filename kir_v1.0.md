@@ -7,12 +7,12 @@ classDef Ort fill:#A9A9F5;
 classDef Sammlung fill:#F781D8;
 classDef Person_m fill:#CECEF6;
 classDef Institution fill:#FE9A2E;
-a_de-blin[Allende de Blin<br>*1928]:::Person_m;
-g_steinke[Günter Steinke<br>*1956]:::Person_m;
+a_de-blin[Allende de Blin<br>*1928<br>AlleJ]:::Person_m;
+g_steinke[Günter Steinke<br>*1956<br>SteinG]:::Person_m;
 th_neuhaus[Thomas Neuhaus<br>*1961]:::Person_m;
-g_zacher[Gerd Zacher<br>1929-2014]:::Person_m;
+g_zacher[Gerd Zacher<br>1929-2014<br>ZachG]:::Person_m;
 k_haussmann[Karin Haußmann<br>*1962]:::Person_w;
-na_huber[Nicolaus A. Huber<br>*1939]:::Person_m;
+na_huber[Nicolaus A. Huber<br>*1939<br>HubN]:::Person_m;
 
 Folkwang{Folkwang <br>Universität der<br> Künste}:::Institution
 UDE((Universität<br>Duisburg Essen)):::Institution
