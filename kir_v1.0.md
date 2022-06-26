@@ -14,8 +14,9 @@ g_zacher[Gerd Zacher<br>1929-2014<br>ZachG]:::Person_m;
 k_haussmann[Karin Haußmann<br>*1962]:::Person_w;
 na_huber[Nicolaus A. Huber<br>*1939<br>HubN]:::Person_m;
 
-Folkwang{Folkwang <br>Universität der<br> Künste}:::Institution
+Folkwang((Folkwang <br>Universität der<br> Künste)):::Institution
 UDE((Universität<br>Duisburg Essen)):::Institution
+GNMR((Gesellschaft für Neue Musik Ruhr)):::Institution
 
 a_de-blin <-.->|Kollaborierte mit| g_zacher
 g_steinke -.->|Lehrt an| Folkwang
@@ -23,8 +24,12 @@ g_zacher -.->|Lehrte an| Folkwang
 k_haussmann -.->|Lehrt an<br>Studierte an| Folkwang
 k_haussmann -.->|Lehrte an| UDE
 k_haussmann -.->|Schülerin von| na_huber
+k_haussmann -.->|Mitglied von| GNMR
 na_huber -.->|Lehrte an| Folkwang
 th_neuhaus -.->|Lehrt an| Folkwang
+th_neuhaus -.->|Mitglied von| GNMR
+na_huber -.->|Mitglied von| GNMR
+
 ```
 
 ### Schaffen
