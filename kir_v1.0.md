@@ -7,7 +7,7 @@ classDef Ort fill:#A9A9F5;
 classDef Sammlung fill:#F781D8;
 classDef Person_m fill:#CECEF6;
 classDef Institution fill:#FE9A2E;
-a_de-blin[Allende de Blin<br>*1928<br>AlleJ]:::Person_m;
+a_de-blin[Juan Allende de Blin<br>*1928<br>AlleJ]:::Person_m;
 g_steinke[Günter Steinke<br>*1956<br>SteinG]:::Person_m;
 th_neuhaus[Thomas Neuhaus<br>*1961]:::Person_m;
 g_zacher[Gerd Zacher<br>1929-2014<br>ZachG]:::Person_m;
