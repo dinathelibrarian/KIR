@@ -53,7 +53,8 @@ neuhaus_1989_kunststoff(gnd:1258315785<br>Werk der Musik<br>Kunst-Stoff Drumproj
 haussmann_2016_kriegslied(gnd:1231718862<br>Werk der Musik<br>Kriegslied<br>2016):::Werk
 steinke_1986_rho(gnd:1069142069<br>Werk der Musik<br>Rho<br>1986):::Werk
 zacher_1961_diferencias(gnd:1072015951<br>Werk der Musik<br>Diferencias<br>1961):::Werk
-huber_1965_choerecelan(gnd:<br>Werk der Musik<br>Zwei Chöre nach Paul Celan):::Werk
+huber_1965_rituale(gnd:300076819<br>Werk der Musik<br>Rituale<br>1965):::Werk
+huber_1967_traummechanik(gnd:1064100295<br>Werk der Musik<br>Traummechanik<br>1967):::Werk
 
 Besetzung_Chor((Chor)):::Besetzung
 Besetzung_Orchester((Orchester)):::Besetzung
@@ -62,6 +63,7 @@ Besetzung_Orgel((Orgel)):::Besetzung
 Besetzung_Schlagzeug((Schlagzeug)):::Besetzung
 Besetzung_Tonband((Tonband)):::Besetzung
 Besetzung_Computer((Computer)):::Besetzung
+Besetzung_Klavier((Klavier)):::Besetzung
 
 a_de-blin -->deblin_2012_memoire --> Besetzung_Orgel
 g_steinke --> steinke_1986_rho --> Besetzung_Kontrafagott
@@ -73,6 +75,8 @@ th_neuhaus -->neuhaus_1989_kunststoff
 k_haussmann --> haussmann_2016_kriegslied
 	haussmann_2016_kriegslied -->|SSATB| Besetzung_Chor
 	haussmann_2016_kriegslied --> Besetzung_Orchester 
-na_huber --> huber_1965_choerecelan --> Besetzung_Chor
+na_huber --> huber_1965_rituale --> Besetzung_Orgel
+na_huber --> huber_1967_traummechanik --> Besetzung_Schlagzeug
+huber_1967_traummechanik --> Besetzung_Klavier
 ```
 
